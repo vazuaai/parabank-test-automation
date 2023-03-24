@@ -1,0 +1,79 @@
+[
+  {
+    "description": "    As a registered user of Parabank,\n    I want to be able to log in to my account securely with my username and password,\n    so that I can access my account information and perform transactions",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;login-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with correct credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141057700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "The user is on the Parabank login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3820238899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The user enters their correct username and password and clicks the \"Login\" button",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291934799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The user is redirected to their account dashboard",
+            "match": {
+              "location": "step-definitions\\login-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57367800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12926099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
