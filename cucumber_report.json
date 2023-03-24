@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 120338600
+              "duration": 129376199
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 10,
             "name": "The user is on the Parabank login page",
             "match": {
-              "location": "step-definitions\\login-step.js:6"
+              "location": "step-definitions\\login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2235939900
+              "duration": 1909399800
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 11,
             "name": "The user enters their correct username and password and clicks the \"Login\" button",
             "match": {
-              "location": "step-definitions\\login-step.js:10"
+              "location": "step-definitions\\login-step.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 484770500
+              "duration": 546215300
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 12,
             "name": "The user is redirected to their account dashboard",
             "match": {
-              "location": "step-definitions\\login-step.js:17"
+              "location": "step-definitions\\login-step.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 78299499
+              "duration": 63419700
             }
           },
           {
@@ -61,7 +61,73 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11221000
+              "duration": 9306499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;login-with-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with incorrect credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86399500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "The user is on the Parabank login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472763799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "The user enters an incorrect username and password and clicks the \"Login\" button",
+            "match": {
+              "location": "step-definitions\\login-step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 373246099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "An error message is displayed saying that the username or password is incorrect",
+            "match": {
+              "location": "step-definitions\\login-step.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134931300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8404899
             }
           }
         ],
