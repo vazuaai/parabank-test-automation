@@ -1,18 +1,19 @@
 const { Given, When, Then, defineStep } = require('@cucumber/cucumber')
+const { LoginPage } = require('../page-objects/login-page')
+
+const loginPage = new LoginPage()
 
 Given('The user is on the Parabank login page', async function () {
-  await page.goto('https://parabank.parasoft.com/parabank/index.htm')
+  await loginPage.navigateToLoginScreen()
 })
 
 When(
   'The user enters their correct username and password and clicks the "Login" button',
   async function () {
-    await page.locator("input[name='username']").type('john')
-    await page.locator("input[name='username']").type('demo')
-    await page.locator("input[value='Log In']").click()
+    await loginPage.submitLoginForm()
   }
 )
 
 Then('The user is redirected to their account dashboard', async function () {
-  await page.waitForSelector('h1.title')
+  await loginPage.assertUserIsLoggedIn()
 })

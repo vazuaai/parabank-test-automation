@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 141057700
+              "duration": 194037899
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 10,
             "name": "The user is on the Parabank login page",
             "match": {
-              "location": "step-definitions\\login-step.js:3"
+              "location": "step-definitions\\login-step.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 3820238899
+              "duration": 2030550499
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 11,
             "name": "The user enters their correct username and password and clicks the \"Login\" button",
             "match": {
-              "location": "step-definitions\\login-step.js:7"
+              "location": "step-definitions\\login-step.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 291934799
+              "duration": 518528400
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 12,
             "name": "The user is redirected to their account dashboard",
             "match": {
-              "location": "step-definitions\\login-step.js:16"
+              "location": "step-definitions\\login-step.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 57367800
+              "duration": 81390499
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12926099
+              "duration": 9660900
             }
           }
         ],
