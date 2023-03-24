@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 129376199
+              "duration": 113644199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1909399800
+              "duration": 1550584299
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 546215300
+              "duration": 541374199
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 12,
             "name": "The user is redirected to their account dashboard",
             "match": {
-              "location": "step-definitions\\login-step.js:29"
+              "location": "step-definitions\\login-step.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 63419700
+              "duration": 148259199
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9306499
+              "duration": 16195400
             }
           }
         ],
@@ -70,17 +70,17 @@
       },
       {
         "description": "",
-        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;login-with-incorrect-credentials",
+        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;try-to-login-with-incorrect-credentials",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Login with incorrect credentials",
+        "name": "Try to login with incorrect credentials",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 86399500
+              "duration": 76895299
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1472763799
+              "duration": 1838401499
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 373246099
+              "duration": 317015999
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 17,
             "name": "An error message is displayed saying that the username or password is incorrect",
             "match": {
-              "location": "step-definitions\\login-step.js:33"
+              "location": "step-definitions\\login-step.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 134931300
+              "duration": 139928700
             }
           },
           {
@@ -127,7 +127,139 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8404899
+              "duration": 8771200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;try-to-login-with-blank-credential-fields",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Try to login with blank credential fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74445899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "The user is on the Parabank login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2236146500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "The user leaves either the username or password field blank and clicks the \"Login\" button",
+            "match": {
+              "location": "step-definitions\\login-step.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309953300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "An error message is displayed saying that both fields are required",
+            "match": {
+              "location": "step-definitions\\login-step.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133118100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8871099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;the-user-must-enter-a-valid-username-and-password-to-log-in-to-their-account;try-to-login-with-invalid-characters",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Try to login with invalid characters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74802399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "The user is on the Parabank login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2244598000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "The user enters their username and password with invalid characters and clicks the \"Login\" button",
+            "match": {
+              "location": "step-definitions\\login-step.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334252600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "An error message is displayed saying that the input is invalid",
+            "match": {
+              "location": "step-definitions\\login-step.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142064399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12679499
             }
           }
         ],

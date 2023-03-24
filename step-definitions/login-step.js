@@ -25,6 +25,20 @@ When(
   }
 )
 
+When(
+  'The user leaves either the username or password field blank and clicks the "Login" button',
+  async function () {
+    await loginPage.submitLoginForm('', '')
+  }
+)
+
+When(
+  'The user enters their username and password with invalid characters and clicks the "Login" button',
+  async function () {
+    await loginPage.submitLoginForm('*ß$>~', 'ˇ^ˇ~÷')
+  }
+)
+
 //Thens
 Then('The user is redirected to their account dashboard', async function () {
   await loginPage.assertUserIsLoggedIn()
@@ -34,5 +48,19 @@ Then(
   'An error message is displayed saying that the username or password is incorrect',
   async function () {
     await loginPage.assertIncorrectLogin()
+  }
+)
+
+Then(
+  'An error message is displayed saying that both fields are required',
+  async function () {
+    await loginPage.assertBlankLoginFields()
+  }
+)
+
+Then(
+  'An error message is displayed saying that the input is invalid',
+  async function () {
+    await loginPage.assertInvalidCharactersInLoginFields()
   }
 )

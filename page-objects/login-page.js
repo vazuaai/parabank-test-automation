@@ -19,6 +19,21 @@ class LoginPage {
 
   async assertIncorrectLogin() {
     await expect(page.locator('h1', { hasText: 'Error' })).toBeVisible()
+    await expect(page.locator('.error')).toContainText(
+      'An internal error has occurred and has been logged.'
+    )
+  }
+
+  async assertBlankLoginFields() {
+    await expect(page.locator('h1', { hasText: 'Error' })).toBeVisible()
+    await expect(page.locator('.error')).toContainText(
+      'Please enter a username and password.'
+    )
+  }
+
+  async assertInvalidCharactersInLoginFields() {
+    await expect(page.locator('h1', { hasText: 'Error' })).toBeVisible()
+    await expect(page.locator('.error')).toContainText('The input is invalid.')
   }
 }
 
