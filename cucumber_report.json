@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 113644199
+              "duration": 103005999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1550584299
+              "duration": 4437043899
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 541374199
+              "duration": 496481299
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 148259199
+              "duration": 162622700
             }
           },
           {
@@ -61,7 +61,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16195400
+              "duration": 13333900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14606399
             }
           }
         ],
@@ -80,7 +88,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 76895299
+              "duration": 80897899
             }
           },
           {
@@ -93,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1838401499
+              "duration": 2164099200
             }
           },
           {
@@ -106,7 +114,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 317015999
+              "duration": 310827799
             }
           },
           {
@@ -118,8 +126,9 @@
               "location": "step-definitions\\login-step.js:47"
             },
             "result": {
-              "status": "passed",
-              "duration": 139928700
+              "status": "failed",
+              "duration": 5012473900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
             }
           },
           {
@@ -127,7 +136,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8771200
+              "duration": 8778999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18640400
             }
           }
         ],
@@ -146,7 +163,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74445899
+              "duration": 88072400
             }
           },
           {
@@ -159,7 +176,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2236146500
+              "duration": 2213175399
             }
           },
           {
@@ -172,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 309953300
+              "duration": 306730100
             }
           },
           {
@@ -185,7 +202,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133118100
+              "duration": 139713499
             }
           },
           {
@@ -193,7 +210,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8871099
+              "duration": 10047899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22071799
             }
           }
         ],
@@ -212,7 +237,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74802399
+              "duration": 116901700
             }
           },
           {
@@ -225,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2244598000
+              "duration": 2208252799
             }
           },
           {
@@ -238,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 334252600
+              "duration": 302094200
             }
           },
           {
@@ -250,8 +275,9 @@
               "location": "step-definitions\\login-step.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 142064399
+              "status": "failed",
+              "duration": 5004794900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
             }
           },
           {
@@ -259,7 +285,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12679499
+              "duration": 5837400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23619100
             }
           }
         ],

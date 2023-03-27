@@ -6,13 +6,17 @@
   "scripts": {
     "test": "C:/Users/varjuz/repos/parabank-test-automation/node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
     "report": "node reporter.js",
-    "test_and_report": "npm run test && npm run report"
+    "serenity-report": "npx serenity-bdd run --features serenity-output --output target/site/serenity --source target/site/serenity"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cucumber/cucumber": "^9.0.1",
+    "@cucumber/cucumber": "^8.5.0",
+    "@serenity-js/console-reporter": "^3.0.1",
+    "@serenity-js/core": "^3.0.1",
+    "@serenity-js/cucumber": "^3.0.1",
+    "@serenity-js/serenity-bdd": "^3.0.1",
     "cucumber-html-reporter": "^6.0.0",
     "playwright": "^1.32.0",
     "prettier": "^2.8.6"

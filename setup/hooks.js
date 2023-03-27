@@ -1,9 +1,21 @@
 const playwright = require('playwright')
 const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
+const { configure } = require('@serenity-js/core')
 
 BeforeAll(async () => {
   //console.log('Launch Browser')
   global.browser = await playwright['chromium'].launch({ headless: true })
+  configure({
+    crew: [
+      '@serenity-js/console-reporter',
+      '@serenity-js/serenity-bdd',
+      [
+        '@serenity-js/core:ArtifactArchiver',
+        { outputDirectory: 'target/site/serenity' },
+      ],
+      // ... any other reporting services
+    ],
+  })
 })
 
 AfterAll(async () => {

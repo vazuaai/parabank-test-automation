@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Login with correct credentials","ERROR","2023-03-27T12:59:30.237+02:00[Europe/Budapest]","0.0","5.15"
+"Login","Try to login with incorrect credentials","ERROR","2023-03-27T12:59:35.398+02:00[Europe/Budapest]","0.0","7.76"
+"Login","Try to login with invalid characters","ERROR","2023-03-27T12:59:45.959+02:00[Europe/Budapest]","0.0","7.16"
