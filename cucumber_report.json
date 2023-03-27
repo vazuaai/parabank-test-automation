@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 103005999
+              "duration": 100352099
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4437043899
+              "duration": 1863913499
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 496481299
+              "duration": 523750499
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162622700
+              "duration": 94057999
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13333900
+              "duration": 13969800
             }
           },
           {
@@ -69,7 +69,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14606399
+              "duration": 20587799
             }
           }
         ],
@@ -88,7 +88,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 80897899
+              "duration": 96594799
             }
           },
           {
@@ -101,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2164099200
+              "duration": 1871009599.9999998
             }
           },
           {
@@ -114,7 +114,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 310827799
+              "duration": 300389100
             }
           },
           {
@@ -126,9 +126,8 @@
               "location": "step-definitions\\login-step.js:47"
             },
             "result": {
-              "status": "failed",
-              "duration": 5012473900,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+              "status": "passed",
+              "duration": 135687400
             }
           },
           {
@@ -136,7 +135,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8778999
+              "duration": 5378800
             }
           },
           {
@@ -144,7 +143,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18640400
+              "duration": 14748300
             }
           }
         ],
@@ -163,7 +162,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 88072400
+              "duration": 86789400
             }
           },
           {
@@ -176,7 +175,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2213175399
+              "duration": 1472746700
             }
           },
           {
@@ -189,7 +188,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 306730100
+              "duration": 300668099
             }
           },
           {
@@ -202,7 +201,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 139713499
+              "duration": 129993900
             }
           },
           {
@@ -210,7 +209,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10047899
+              "duration": 5874600
             }
           },
           {
@@ -218,7 +217,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22071799
+              "duration": 15503399
             }
           }
         ],
@@ -237,7 +236,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 116901700
+              "duration": 81562299
             }
           },
           {
@@ -250,7 +249,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2208252799
+              "duration": 1439651099
             }
           },
           {
@@ -263,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 302094200
+              "duration": 319247200
             }
           },
           {
@@ -276,8 +275,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5004794900,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+              "duration": 5140652799,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"The \u001b[7minput is invali\u001b[27md.\"\u001b[39m\nReceived string: \u001b[31m\"The \u001b[7musername and password could not be verifie\u001b[27md.\"\u001b[39m\nCall log:\n  \u001b[2m- locator._expect with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.error')\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  - waiting for locator('.error')\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\u001b[2m  -   locator resolved to <p class=\"error\">The username and password could not be verified.</p>\u001b[22m\n\u001b[2m  -   unexpected value \"The username and password could not be verified.\"\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\node_modules\\@playwright\\test\\lib\\matchers\\expect.js:131:37)\n    at LoginPage.assertInvalidCharactersInLoginFields (C:\\Users\\varjuz\\repos\\parabank-test-automation\\page-objects\\login-page.js:36:42)\n    at World.<anonymous> (C:\\Users\\varjuz\\repos\\parabank-test-automation\\step-definitions\\login-step.js:64:5)"
             }
           },
           {
@@ -285,7 +284,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5837400
+              "duration": 7610899
             }
           },
           {
@@ -293,7 +292,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23619100
+              "duration": 11358599
             }
           }
         ],

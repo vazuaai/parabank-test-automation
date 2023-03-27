@@ -1,10 +1,18 @@
 const playwright = require('playwright')
-const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
+const {
+  setDefaultTimeout,
+  Before,
+  After,
+  BeforeAll,
+  AfterAll,
+} = require('@cucumber/cucumber')
 const { configure } = require('@serenity-js/core')
 
+setDefaultTimeout(100000)
+
 BeforeAll(async () => {
-  //console.log('Launch Browser')
   global.browser = await playwright['chromium'].launch({ headless: true })
+
   configure({
     crew: [
       '@serenity-js/console-reporter',

@@ -20,7 +20,7 @@ class LoginPage {
   async assertIncorrectLogin() {
     await expect(page.locator('h1', { hasText: 'Error' })).toBeVisible()
     await expect(page.locator('.error')).toContainText(
-      'An internal error has occurred and has been logged.'
+      'The username and password could not be verified.'
     )
   }
 
